@@ -2,7 +2,7 @@
 REM Check if the virtual environment directory exists
 if not exist venv (
     echo Creating virtual environment...
-    py 3.11.8 -m venv venv
+    py -3.11 -m venv venv
 )
 
 echo Activating virtual environment...
