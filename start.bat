@@ -14,3 +14,9 @@ pip install -r requirements.txt
 
 echo Setup complete. Virtual environment is ready.
 pause
+
+echo Running main.py
+
+python src/main.py
+
+pause
